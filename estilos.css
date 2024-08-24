@@ -1,0 +1,48 @@
+header{
+    display: flexbox;
+}
+
+.klkb{
+    display: ruby-text;
+}
+.klkb img{
+    height: 70px;
+}
+
+/* styles.css */
+
+/* Estilo básico para el menú de navegación */
+.main-menu {
+    background-color: #333; /* Color de fondo del menú */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+
+/* Estilos para la lista del menú */
+.main-menu ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Coloca los elementos de la lista en línea */
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilos para los elementos de la lista */
+.main-menu li {
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+/* Estilos para los enlaces del menú */
+.main-menu a {
+    display: block; /* Hace que el enlace sea un bloque completo */
+    color: white; /* Color del texto */
+    text-align: center; /* Alinea el texto en el centro */
+    padding: 14px 20px; /* Padding para espacio alrededor del texto */
+    text-decoration: none; /* Elimina el subrayado del texto */
+}
+
+/* Cambia el color de fondo de los enlaces al pasar el ratón */
+.main-menu a:hover {
+    background-color: #575757; /* Color de fondo al pasar el ratón */
+}
